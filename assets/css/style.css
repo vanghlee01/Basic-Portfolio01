@@ -1,0 +1,44 @@
+{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: #ffffff
+}
+
+#header {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  float: left; 
+  padding: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+#main {
+background-color: #dddddd;
+width: 800px;
+
+}
+
+#content{
+  background-color: #ffffff;
+  color: #777777; 
+  float: right;
+ 
+ 
+ 
+}
+#aside{
+  color: #4aaaa5;
+}
+#division {
+  background-color: #ffffff;
+
+}
+
+footer {
+  clear: both;
+}
+  
