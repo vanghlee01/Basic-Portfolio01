@@ -17,13 +17,30 @@ header h1 {
 #logo {
  background-color: #4aaaa5;
  float: left;
- display: inline-block;
+ display: block;
  margin-left: 100px; 
+height: 40px;
+padding: 20px;
 }
  #nav {
    float: right;
    padding-right: 100px;
+   margin-top: 20px;
  }
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+li {
+  float: left;
+}
+li a {
+  display: inline-block;
+  width: 80px;
+  margin: 0 10px;
+
+
+}
 body {
   margin: auto;
   text-align: center;
@@ -46,6 +63,7 @@ main {
 }
 main p{
   margin: 10px;
+  line-height: 2em;
 }
 main h1 {
   color: #4aaaa5;
@@ -59,5 +77,9 @@ main img {
 
 footer {
   background-color: #666666;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+  }
 
 }
