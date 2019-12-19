@@ -27,20 +27,19 @@
             </h1>
         </p>
         <hr>
-        <p>
-
-            <form>
-                First name:<br>
-                <input type="text" name="firstname" value="Jon Smith"><br>
-                Email:<br>
-                <input type="email" name="address" value="example@gmail.com"><br>
-                Message:<br>
-                <textarea name="comment">Enter text here...</textarea><br>
-                
-                <input type="submit" value="Submit">
-            </form>
-        </p>
-
+        <form id="contact-form">
+            <ul>
+                <li >
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="jon smith" required="required">
+                </li>
+                <li id="message">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required="required"></textarea>
+                </li>
+            </ul>
+            <input type="submit">
+        </form>
     </main>
     <footer>
         footer

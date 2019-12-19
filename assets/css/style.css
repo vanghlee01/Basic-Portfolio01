@@ -18,14 +18,14 @@ header h1 {
  background-color: #4aaaa5;
  float: left;
  display: block;
- margin-left: 100px; 
+ /* margin-left: 100px;  */
 height: 40px;
 padding: 20px;
 }
  #nav {
    float: right;
    padding-right: 100px;
-   margin-top: 20px;
+   margin-top: 25px;
  }
 ul {
   text-decoration: none;
@@ -105,3 +105,54 @@ input[type=submit] {
   height: 30px;
   width: 100px;
  }
+
+ .resize{
+   width: 200px;
+   height: auto;
+ }
+
+ #contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 0.875em;
+  border: 1px solid #dddddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 6px 0px;
+  font-size:1.125em;
+  color: #ffffff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+  margin-left: 6%;
+}
+
+main li {
+  float: none;
+  padding-right: 14%;
+  margin: 2%;
+}
+
